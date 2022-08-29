@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+//Removes header stating slide number
+.carousel-inner .sr-only {
+  display: none;
+}
+
+// Removes text to the right of previous arrow
+.carousel-control-prev .sr-only {
+  font-size: 0;
+}
+
+// Removes text to the right of next arrow
+.carousel-control-next .sr-only {
+  font-size: 0;
+}
